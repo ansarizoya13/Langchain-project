@@ -28,7 +28,7 @@ def debug_code(code):
 st.title('Code Generator and Debugger')
 
 st.subheader('Generate Code')
-language = st.selectbox("Select programming language", ["Python", "JavaScript", "C++", "Java"])
+language = st.selectbox("Select programming language", ["Python", "JavaScript", "C++", "Java","C#","C","SQL","HTML","CSS"])
 task = st.text_input("Enter the task description")
 
 if st.button('Generate Code'):
